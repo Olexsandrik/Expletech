@@ -1,11 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Header } from "./components/Header/index.jsx";
 import { Cards } from "./components/Cards/index.jsx";
 import catalog from "./server/catalog.json";
 import "./App.css";
 
 function App() {
-  const [data] = useState(catalog);
+  const [data, setData] = useState(catalog);
+  // const [loading, setLoading] = useState(false);
+  // const [currentPage, setCurrentPage] = useState(1);
+  // const [postsPerPage, setPostsPerPage] = useState(10);
+
+  
+
   const [search, setSearch] = useState("");
   const [typeSorting, setTypeSorting] = useState({
     type: "",
