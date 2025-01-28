@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./index.css";
 export const SelectSorting = (props) => {
   return (
-    <>
-      <label htmlFor="sorting">Сортування за:</label>
+    <div className="selectType">
+      <label className="labelForSelect" htmlFor="sorting">Сортування за:</label>
       <select
         id="sorting"
         onChange={(e) => props.handlerSelectTypeSorting(e.target.value)}
@@ -12,6 +12,6 @@ export const SelectSorting = (props) => {
         <option value="min">Мінімальна ціна</option>
         <option value="max">Максимальна ціна</option>
       </select>
-    </>
+    </div>
   );
 };

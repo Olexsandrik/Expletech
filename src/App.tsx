@@ -21,9 +21,7 @@ function App() {
   const handlerSelectTypeSorting = (value) => {
     setTypeSorting({ type: value });
   };
-  {
-    console.log(typeSorting);
-  }
+
   return (
     <>
       <div className="container">

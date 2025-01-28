@@ -4,6 +4,7 @@
   padding: 6px;
   border: 2px solid #ddd;
   border-radius: 6px;
+  margin-right: 50px;
 }
 .mainInput:focus {
   border-color: #ff4500;

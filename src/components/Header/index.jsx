@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { Input } from "../Input";
 import { SelectSorting } from "../../SelectSorting";
+import "./index.css";
 export const Header = (props) => {
   return (
     <div className="header">
-      <a href="logo">{props.logo}</a>
+      <a className="logo" href="logo">
+        {props.logo}
+      </a>
 
       <div className="input-price-wrapper">
         <Input
@@ -13,6 +16,7 @@ export const Header = (props) => {
           value={props.search}
           type={"text"}
         />
+
         <SelectSorting
           typeSorting={props.typeSorting}
           handlerSelectTypeSorting={props.handlerSelectTypeSorting}
