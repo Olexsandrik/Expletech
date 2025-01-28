@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhMXt6oyp1JvovHBiO6KVY0FW512UwjpX9bfv6OtwzWva-Hptxl7ofpEFtmFRZj8N2PYfngBw5hRhvPlMqsQXzlTJvsiLBVPtvEUPQxgVwabrNzlDERH4l7DE",
+      "price": 59.99
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSSpRqkoGU5XVYLgh_bNZ2Ot-YMsgqwOSqNKVuHACcbU3VQtyEsCdfRcTZn-M8u3gXvgW8YXhhAe1G6FsK4bka9IToUatIovwMlXX_Qr_sLQuMHVDl3N46GtrU",
+      "price": 149.99
+    },
+    {
+      "id": 3,
+      "name": "Gaming Keyboard",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTmHKKneehQ3FWIax045hj_uJcuvG3ffk__JbKpupZdycGgj_vf5DBNoCaj4xYhJeid3DoKX-8TTZlfsqawO4axpCBX9ncn1httwIfAqP9RP0tM31i6uY2j",
+      "price": 89.99
+    },
+    {
+      "id": 4,
+      "name": "Bluetooth Speaker",
+      "image": "https://content1.rozetka.com.ua/goods/images/big/280965623.jpg",
+      "price": 39.99
+    },
+    {
+      "id": 5,
+      "name": "4K Monitor",
+      "image": "https://img.telemart.ua/662904-819294/dell-27-p2725h-210-bmgc-silverblack.jpg",
+      "price": 299.99
+    }
+  ]
