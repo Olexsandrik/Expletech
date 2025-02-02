@@ -1,6 +1,13 @@
 import React from "react";
 import "./index.css";
-export const Input = (props) => {
+
+type inputProps = {
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  type: string;
+  value: string;
+  name: string;
+};
+export const Input = (props: inputProps) => {
   return (
     <input
       className="mainInput"

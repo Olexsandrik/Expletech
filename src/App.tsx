@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Header } from "./components/Header/index.jsx";
+import { Header } from "./components/Header/index.js";
 import { Cards } from "./components/Cards/index.jsx";
 import catalog from "./server/catalog.json";
 import "./App.css";
@@ -19,10 +19,11 @@ function App() {
     return item.name.toLowerCase().includes(search.toLowerCase());
   });
 
-  const handlerInput = (e) => {
+  const handlerInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
-  };
-  const handlerSelectTypeSorting = (value) => {
+};
+
+  const handlerSelectTypeSorting = (value: string) => {
     setTypeSorting({ type: value });
   };
 

@@ -1,7 +1,20 @@
 import React from "react";
 import "./index.css";
 import { Card } from "../Card";
-export const Cards = (props) => {
+type SortType = {
+  type: string;
+};
+type Item = {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+};
+type CardsProps = {
+  data: Item[];
+  typeSorting: SortType;
+};
+export const Cards: React.FC<CardsProps> = (props) => {
   const sortingWithFilter = [...(props.data || [])].sort((a, b) => {
     return props.typeSorting.type === "min"
       ? a.price - b.price
