@@ -21,7 +21,7 @@ function App() {
 
   const handlerInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
-};
+  };
 
   const handlerSelectTypeSorting = (value: string) => {
     setTypeSorting({ type: value });

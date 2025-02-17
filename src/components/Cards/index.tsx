@@ -27,6 +27,7 @@ export const Cards: React.FC<CardsProps> = (props) => {
         sortingWithFilter.map((item) => (
           <Card
             key={item.id}
+            id={item.id}
             image={item.image}
             name={item.name}
             price={item.price}
